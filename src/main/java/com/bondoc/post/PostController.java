@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/bondoc/posts")
-@CrossOrigin(origins = {"http://localhost:5173"}) // Allow requests from the frontend
+@CrossOrigin(origins = {"http://localhost:5173", "https://final-ui-s634.onrender.com"}) 
 public class PostController {
 
     @Autowired
